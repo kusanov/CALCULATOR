@@ -1,6 +1,8 @@
 package Calculator;
 
 public class CalculatorWithMath {
+private double a,b;
+    private int c;
     public double  plus2 (double  a, double  b){
         return a + b;
 
@@ -17,8 +19,8 @@ public class CalculatorWithMath {
         return a / b;
 
     }
-        public double power2(double a, int b){
-        return Math.pow(a,b);
+    public double power2(double a, int c){
+        return Math.pow(a,c);
     }
 
     public double abs2 (double a){
@@ -28,4 +30,8 @@ public class CalculatorWithMath {
     public double sqrt2 (int s){
         return Math.sqrt(s);
     }
+
+
+
+
 }

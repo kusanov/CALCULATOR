@@ -1,11 +1,11 @@
 package Calculator;
 
-public class CalculaterWithCounter extends CalculatorWithMath {
-    private int counter;
+public class CalculaterWithCounter  extends CalculatorWithMath {
+        private int counter;
 
     public double plus3(double a, double b) {
         this.counter++;
-        return super.plus2(a, b);
+        return super.plus2(a,b);
 
 
     }
@@ -31,4 +31,3 @@ public class CalculaterWithCounter extends CalculatorWithMath {
         return counter;
     }
 }
-
